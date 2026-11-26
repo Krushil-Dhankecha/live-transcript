@@ -1,6 +1,6 @@
 # streamlit_app.py
 import streamlit as st
-from streamlit_audiorecorder import audiorecorder
+from audiorecorder import audiorecorder
 import whisper
 
 st.set_page_config(page_title="Live Transcription", layout="centered")
